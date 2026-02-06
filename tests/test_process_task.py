@@ -1,5 +1,5 @@
-from modules.process_task import calculator
-from modules.use_pool import calculator_usepool
+from app.modules.process_task import calculator
+from app.modules.use_pool import calculator_usepool
 
 def test_caculator():
     assert calculator() == 500500

@@ -1,4 +1,4 @@
-from modules.process_task import calculator
+from app.modules.process_task import calculator
 def add(a: int, b: int) -> int:
     return a + b
 
